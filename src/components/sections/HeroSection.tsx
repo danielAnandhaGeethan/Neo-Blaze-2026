@@ -6,12 +6,14 @@ import { Button } from '@/components/ui/button';
 import CountdownTimer from '@/components/shared/CountdownTimer';
 import Section from '@/components/shared/Section';
 import { Calendar, MapPin } from 'lucide-react';
+import EmberBackground from '@/components/shared/EmberBackground';
 
 export default function HeroSection() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-image');
 
   return (
     <Section id="home" className="pt-16 pb-16 md:pt-24 md:pb-24 bg-accent/50 relative overflow-hidden">
+        <EmberBackground />
         <div className="absolute inset-0 bg-[url('/flame-pattern.svg')] bg-repeat opacity-[0.03]"></div>
         <div className="container relative">
             <div className="grid md:grid-cols-2 gap-12 items-center">
