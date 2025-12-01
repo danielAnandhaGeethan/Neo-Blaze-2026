@@ -1,3 +1,4 @@
+
 export const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
@@ -43,8 +44,8 @@ export const aboutContent = {
 export const themeContent = {
   title: "Theme 2026 - Teshuvah",
   subtitle: "Return before He returns",
-  explanation: "Teshuvah is a beautiful Hebrew word that means 'to turn back' or 'to return'. It’s about making a conscious decision to turn away from distraction and sin, and return to God with a sincere, repentant heart.",
-  connection: "In a world that constantly pulls our hearts in a million directions, the call to Teshuvah is more urgent than ever. It's a reminder that no matter how far we've wandered, God is always calling us back into His loving embrace. Let's answer that call together.",
+  explanation: "Teshuvah is a call for today’s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
+  connection: "The Second Coming is near, and Teshuhuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",
   verse: {
     text: "Return to Me, and I will return to you, says the LORD of hosts.",
     reference: "Malachi 3:7",
