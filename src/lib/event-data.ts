@@ -47,8 +47,8 @@ export const themeContent = {
   explanation: "Teshuvah is a call for today’s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
   connection: "The Second Coming is near, and Teshuhuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",
   verse: {
-    text: "Return to Me, and I will return to you, says the LORD of hosts.",
-    reference: "Malachi 3:7",
+    text: "“Return to Me, and I will return to you,” says the LORD of hosts.\n“But you say, ‘How shall we return?’ …\nFor behold, the day is coming, burning like an oven,\nwhen all the arrogant and all evildoers will be stubble.”",
+    reference: "Malachi 3:7; 4:1",
   },
 };
 
