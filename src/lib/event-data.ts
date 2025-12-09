@@ -10,7 +10,7 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  title: "Neo Blaze 2026",
+  title: "NeoBlaze 2026",
   subtitle: "Inter Church Youth Festival",
   tagline: "A one day youth festival with treasure hunts, music, reels, and more.",
   date: "26 January 2026",
