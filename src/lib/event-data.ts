@@ -155,7 +155,8 @@ export const eventRules = [
     meta: "Participants: 3 per church",
     rules: [
       "Bible versions allowed: Tamil (BSI/CSI), English (ESV).",
-      "Syllabus for Prelims: The Book of Judges. For all subsequent rounds: The entire Bible.",
+      "Syllabus for Prelims: The Book of Malachi and Revelation.",
+      "For all subsequent rounds: The entire Bible.",
       "No phones, gadgets, or any form of notes are allowed during the quiz.",
       "Rounds may include rapid-fire, buzzers, or visual questions. The final format is at the Quiz Master's discretion.",
       "In all matters, the judges' decision is final.",
