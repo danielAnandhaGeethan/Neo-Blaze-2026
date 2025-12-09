@@ -4,8 +4,8 @@ export const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Theme', href: '#theme' },
   { name: 'Events', href: '#events' },
-  { name: 'Schedule', href: '#schedule' },
   { name: 'Rules', href: '#rules' },
+  { name: 'Schedule', href: '#schedule' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -72,12 +72,6 @@ export const events = [
     type: "On-site",
   },
   {
-    id: "reels-making",
-    name: "Reels Making",
-    tagline: "Tell a powerful story in 60 seconds. On-site creativity.",
-    type: "On-site",
-  },
-  {
     id: "quiz",
     name: "Quiz",
     tagline: "Test your knowledge of the Word. Fast, fun, and challenging.",
@@ -130,7 +124,7 @@ export const eventRules = [
   },
   {
     id: "photography",
-    title: "Photography (On-site)",
+    title: "Photography",
     description: "You have a camera and a keen eye. We'll give you a theme on the spot. Capture a winning shot that tells a story.",
     meta: "Participants: 2 per church | Time limit: 90 minutes",
     rules: [
@@ -173,23 +167,8 @@ export const eventRules = [
     description: "The ultimate race against time! Follow the clues, solve the puzzles, and work as a team to uncover the final treasure.",
     meta: "Participants: 3 per team (at least one female member required)",
     rules: [
-      "A detailed briefing on rules, route, and boundaries will be given on the spot.",
-      "Teams must stay together at all times and remain within the designated campus area.",
-      "Use of personal vehicles or any outside help is strictly forbidden unless explicitly allowed for a specific clue.",
-      "The first team to correctly solve all clues and reach the finish line wins. Time penalties may be applied for breaking any rules.",
-    ],
-  },
-    {
-    id: "reels-making",
-    title: "Reels Making (On-site)",
-    description: "Create a compelling short video on the spot. A challenge of quick thinking, creativity, and teamwork.",
-    meta: "Participants: 2 per church | Time limit: 90 minutes",
-    rules: [
-      "The topic will be given on the spot, related to the main theme 'Teshuvah'.",
-      "Video must be shot, edited, and submitted within the 90-minute timeframe.",
-      "Maximum duration is 60 seconds.",
-      "All content must be original and created during the event time. No pre-recorded footage.",
-      "Content must be respectful and family-friendly.",
+      "A comprehensive briefing covering the event format, specific rules, and required procedures will be provided live on the spot.",
+      "A minimum of one (1) female participant is mandatory for all competing teams."
     ],
   },
   {
@@ -218,7 +197,7 @@ export const eventRules = [
   },
   {
     id: "online-reels",
-    title: "Online Event - Reels",
+    title: "Reels (Online Event)",
     description: "Create a stunning video reel based on the theme 'Teshuvah' and share it with the world. Your chance to make an impact online.",
     meta: "Submission Deadline: 15 January 2026",
     rules: [
@@ -231,7 +210,7 @@ export const eventRules = [
   },
   {
     id: "online-photography",
-    title: "Online Event - Light Photography",
+    title: "Light Photography (Online Event)",
     description: "Explore the creative use of light in photography. Submit a single, powerful image that captures the essence of the given theme.",
     meta: "Submission Deadline: 15 January 2026",
     rules: [
@@ -259,7 +238,7 @@ export const generalRules = {
     },
     {
       label: "Registration Fees",
-      content: "Church Registration: ₹1000 | Individual Entry: ₹100. (Fees are subject to change).",
+      content: "Church Registration: ₨ 1000 | Individual Entry: ₨ 100. (Fees are subject to change).",
       icon: false,
     },
     {

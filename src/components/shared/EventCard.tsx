@@ -10,7 +10,8 @@ type EventCardProps = {
 
 export default function EventCard({ event }: EventCardProps) {
   return (
-    <Link href={`#${event.id}`} className="group block h-full">
+    //href={`./#${event.id}`}
+    <Link href="" className="group block h-full" scroll={false}>
       <Card className="h-full flex flex-col transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1 hover:border-primary/50">
         <CardHeader>
           <div className="flex justify-between items-start">
@@ -25,7 +26,7 @@ export default function EventCard({ event }: EventCardProps) {
         <CardContent className="flex-grow flex flex-col justify-between">
           <p className="text-sm text-foreground/70">{event.tagline}</p>
           <div className="mt-4 flex items-center justify-end text-xs text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity">
-            View Rules <ArrowDownCircle className="ml-2 h-4 w-4" />
+            {/* View Rules <ArrowDownCircle className="ml-2 h-4 w-4" /> */}
           </div>
         </CardContent>
       </Card>
