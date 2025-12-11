@@ -10,11 +10,11 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  title: "NeoBlaze 2026",
+  title: "NeoBlaze'26",
   subtitle: "Inter Church Youth Festival",
   tagline: "A one day youth festival with treasure hunts, music, reels, and more.",
   date: "26 January 2026",
-  venue: "CSI Church of Jesus Christ, PRS Nagar, Bharathi Nagar, Chennai",
+  venue: "CSI Church of Jesus Christ, Palavakkam, ECR",
   ctaPrimary: {
     text: "View Events and Rules",
     href: "#events",
@@ -27,9 +27,9 @@ export const heroContent = {
 };
 
 export const aboutContent = {
-  title: "About Neo Blaze",
+  title: "About NeoBlaze",
   paragraphs: [
-    "Neo Blaze is the premier inter-church youth event hosted by the CJC Youth Fellowship, igniting hearts for Christ! We're gathering youth from 15 to 20 churches for a day packed with high-energy competition and powerful fellowship.",
+    "NeoBlaze is the premier inter-church youth event hosted by the CJC Youth Fellowship, igniting hearts for Christ! We're gathering youth from 15 to 20 churches for a day packed with high-energy competition and powerful fellowship.",
     "This isn't just about winning prizes. It's about discovering God-given talents, building lasting friendships across different congregations, and uniting under one banner of faith. Get ready for a day of fun, challenge, and spiritual growth.",
   ],
   expectations: [
@@ -45,9 +45,9 @@ export const themeContent = {
   title: "Theme 2026 - Teshuvah",
   subtitle: "Return before He returns",
   explanation: "Teshuvah is a call for today’s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
-  connection: "The Second Coming is near, and Teshuhuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",
+  connection: "The Second Coming is near, and Teshuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",
   verse: {
-    text: "“Return to Me, and I will return to you,” says the LORD of hosts.\n“But you say, ‘How shall we return?’ …\nFor behold, the day is coming, burning like an oven,\nwhen all the arrogant and all evildoers will be stubble.”",
+    text: "“Return to Me, and I will return to you“, says the LORD of hosts.\nBut you say,How shall we return? …\nFor behold, the day is coming, burning like an oven,\nwhen all the arrogant and all evildoers will be stubble.",
     reference: "Malachi 3:7; 4:1",
   },
 };
@@ -114,11 +114,11 @@ export const eventRules = [
     id: "singing",
     title: "Singing",
     description: "Unleash your vocal and musical talents with an original composition. Let's create an atmosphere of worship and praise together.",
-    meta: "Participants: Minimum 5 singers per church (not counting instrumentalists) | Time limit: 7 minutes (including setup)",
+    meta: "Participants: Minimum 5 singers per church (not counting instrumentalists) | Time limit: 7 minutes (including instruments setup)",
     rules: [
-      "Songs must feature original composition and lyrics, based on the theme verse (Malachi 3:7).",
-      "Teams must include at least one creative vocal element, such as a clap pattern, chant, scripture whisper, vocal slide, or unison shout.",
-      "Please provide 3 copies of the lyrics sheet to the judges. Do not print your church name on them.",
+      "Songs must be original, with self-written lyrics and composition based on the theme verses Malachi 3:7, 4:1",
+      "Each team must include at least one creative vocal element, such as a clap pattern, hum, chant, scripture whisper, vocal slide, unison shout, etc.",
+      "Teams must provide three copies of the lyrics sheet to the judges without mentioning the church name.",
       "All lyrics and on-stage presentation must be Christ-honoring and family-friendly.",
     ],
   },
@@ -154,12 +154,11 @@ export const eventRules = [
     description: "Dive deep into the scriptures in this fast-paced and exciting quiz. How well do you know the Word?",
     meta: "Participants: 3 per church",
     rules: [
-      "Bible versions allowed: Tamil (BSI/CSI), English (ESV).",
+      "Bible versions allowed: Tamil (Old Translation), English (ESV).",
       "Syllabus for Prelims: The Book of Malachi and Revelation.",
       "For all subsequent rounds: The entire Bible.",
       "No phones, gadgets, or any form of notes are allowed during the quiz.",
-      "Rounds may include rapid-fire, buzzers, or visual questions. The final format is at the Quiz Master's discretion.",
-      "In all matters, the judges' decision is final.",
+      "In all matters, the Quiz Master's decision is final.",
     ],
   },
   {
@@ -180,9 +179,7 @@ export const eventRules = [
     rules: [
       "The topic will be given on the spot.",
       "You will have 2 minutes to prepare your thoughts.",
-      "The speaker will begin by talking on the topic. The host will randomly call 'Block' (requiring you to switch to opposing the point) or 'Tackle' (switching back to supporting it).",
-      "Content must be clean, logical, and respectful.",
-      "You will be judged on spontaneity, clarity, humor, and logical consistency.",
+      "Content must be clean, logical, and respectful."
     ],
   },
   {
@@ -198,7 +195,7 @@ export const eventRules = [
   },
   {
     id: "online-reels",
-    title: "Reels (Online Event)",
+    title: "Reels (Online)",
     description: "Create a stunning video reel based on the theme 'Teshuvah' and share it with the world. Your chance to make an impact online.",
     meta: "Submission Deadline: 15 January 2026",
     rules: [
@@ -211,7 +208,7 @@ export const eventRules = [
   },
   {
     id: "online-photography",
-    title: "Light Photography (Online Event)",
+    title: "Photography (Online)",
     description: "Explore the creative use of light in photography. Submit a single, powerful image that captures the essence of the given theme.",
     meta: "Submission Deadline: 15 January 2026",
     rules: [
@@ -260,10 +257,11 @@ export const generalRules = {
 export const schedule = [
     { time: '09:30 AM', event: 'Registration & Fellowship' },
     { time: '10:00 AM', event: 'Opening Session & Prayer' },
-    { time: '10:30 AM', event: 'First Set of On-site Events' },
+    { time: '10:30 AM', event: 'Word Of God' },
+    { time: '11:15 AM', event: 'First Set of On-site Events' },
     { time: '01:00 PM', event: 'Lunch Break' },
     { time: '02:00 PM', event: 'Afternoon Events & Competitions' },
-    { time: '04:30 PM', event: 'Awards Ceremony & Closing Prayer' },
+    { time: '05:30 PM', event: 'Awards Ceremony & Closing Prayer' },
 ];
 
 export const contactInfo = {

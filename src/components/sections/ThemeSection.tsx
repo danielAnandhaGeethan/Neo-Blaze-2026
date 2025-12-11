@@ -23,7 +23,7 @@ export default function ThemeSection() {
         <Card className="mt-8 border-primary/50 bg-background max-w-2xl mx-auto shadow-sm">
           <CardContent className="p-6">
             <blockquote className="text-xl italic font-serif text-primary whitespace-pre-line">
-              "{themeContent.verse.text}"
+              {themeContent.verse.text}
             </blockquote>
             <p className="mt-4 text-right text-sm text-foreground/60">— {themeContent.verse.reference}</p>
           </CardContent>

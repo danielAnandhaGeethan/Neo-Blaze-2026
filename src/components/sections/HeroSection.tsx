@@ -45,9 +45,6 @@ export default function HeroSection() {
                         <Button asChild size="lg" className="font-bold">
                             <Link href={heroContent.ctaPrimary.href}>{heroContent.ctaPrimary.text}</Link>
                         </Button>
-                        <Button asChild size="lg" variant="secondary" className="font-bold">
-                            <a href={heroContent.ctaSecondary.href} download>{heroContent.ctaSecondary.text}</a>
-                        </Button>
                     </div>
                 </div>
                 <div className="hidden md:flex justify-center items-center">

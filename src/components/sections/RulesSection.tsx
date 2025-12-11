@@ -39,7 +39,7 @@ export default function RulesSection() {
         
         <Card className="mt-16 bg-background">
             <CardHeader>
-                <CardTitle className="font-headline text-2xl text-primary">{generalRules.title}</CardTitle>
+                <CardTitle className="text-left font-headline text-2xl text-primary">{generalRules.title}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
                 {generalRules.rules.map((rule, i) => (

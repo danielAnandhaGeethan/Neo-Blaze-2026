@@ -6,6 +6,7 @@ import { Flame, Menu, X } from 'lucide-react';
 import { navLinks } from '@/lib/event-data';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import Image from 'next/image';
 
 export default function Header() {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -48,8 +49,9 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between border-b pb-2">
                     <Link href="#home" onClick={() => setIsSheetOpen(false)} className="flex items-center space-x-2">
-                        <Flame className="h-6 w-6 text-primary" />
-                        <span className="font-bold font-headline">Neo Blaze 2026</span>
+                        {/* <Flame className="h-6 w-6 text-primary" /> */}
+                        <Image src="../../../public/icon.png" alt="Img" />
+                        <span className="font-bold font-headline">NeoBlaze 2026</span>
                     </Link>
                     <SheetTrigger asChild>
                          <Button variant="ghost" size="icon">
