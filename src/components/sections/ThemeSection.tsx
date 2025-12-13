@@ -20,7 +20,7 @@ export default function ThemeSection() {
           {themeContent.connection}
         </p>
 
-        <Card className="mt-8 border-primary/50 bg-background max-w-2xl mx-auto shadow-sm">
+        <Card className="mt-8 border-primary/50 max-w-2xl mx-auto shadow-md">
           <CardContent className="p-6">
             <blockquote className="text-xl italic font-serif text-primary whitespace-pre-line">
               {themeContent.verse.text}

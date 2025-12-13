@@ -272,10 +272,12 @@ export const contactInfo = {
     organizers: {
         title: "Contact",
         list: [
-            { name: "Charles", phone: "97xxx xxxxx" },
-            { name: "Presley", phone: "90xxx xxxxx" },
-            { name: "Prathip", phone: "97xxx xxxxx" },
-            { name: "Alan", phone: "99xxx xxxxx" }
+            { name: "Charles", phone: "9710629387" },
+            { name: "Presley", phone: "9003126573" },
+            { name: "Prathip", phone: "9791441154" },
+            { name: "Alan", phone: "9940150411" },
+            { name: "Edwin Swanith", phone: "Don't call me Please!" },
+            { name: "Dany", phone: "Please call me!" },
         ],
         email: "csichurchofjesuschrist@gmail.com"
     }

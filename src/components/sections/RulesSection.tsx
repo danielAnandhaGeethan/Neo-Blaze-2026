@@ -1,3 +1,6 @@
+'use client';
+
+import { useState, useEffect, useCallback } from 'react';
 import Section from '@/components/shared/Section';
 import { eventRules, generalRules } from '@/lib/event-data';
 import {
@@ -10,13 +13,56 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertTriangle, Info } from 'lucide-react';
 
 export default function RulesSection() {
+  const [openItem, setOpenItem] = useState<string | undefined>(undefined);
+
+  const openAccordionItem = useCallback((eventId: string) => {
+    const matchingRule = eventRules.find(rule => rule.id === eventId);
+    if (matchingRule) {
+      setOpenItem(eventId);
+    }
+  }, []);
+
+  useEffect(() => {
+    // Handle custom event from EventCard
+    const handleOpenEventRule = (e: Event) => {
+      const customEvent = e as CustomEvent<{ eventId: string }>;
+      openAccordionItem(customEvent.detail.eventId);
+    };
+
+    // Check URL hash on mount
+    const checkHash = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash) {
+        openAccordionItem(hash);
+      }
+    };
+
+    // Check on mount
+    checkHash();
+
+    // Listen for custom event and hash changes
+    window.addEventListener('openEventRule', handleOpenEventRule);
+    window.addEventListener('hashchange', checkHash);
+    
+    return () => {
+      window.removeEventListener('openEventRule', handleOpenEventRule);
+      window.removeEventListener('hashchange', checkHash);
+    };
+  }, [openAccordionItem]);
+
   return (
     <Section id="rules" className="bg-muted/50">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary mb-8 text-center">
           Detailed Event Rules
         </h2>
-        <Accordion type="single" collapsible className="w-full bg-background rounded-lg shadow-sm">
+        <Accordion 
+          type="single" 
+          collapsible 
+          className="w-full bg-card rounded-lg shadow-md"
+          value={openItem}
+          onValueChange={setOpenItem}
+        >
           {eventRules.map((event) => (
             <AccordionItem value={event.id} key={event.id} id={event.id}>
               <AccordionTrigger className="text-lg font-headline px-6 hover:bg-accent/50">
@@ -37,7 +83,7 @@ export default function RulesSection() {
           ))}
         </Accordion>
         
-        <Card className="mt-16 bg-background">
+        <Card className="mt-16 shadow-md">
             <CardHeader>
                 <CardTitle className="text-left font-headline text-2xl text-primary">{generalRules.title}</CardTitle>
             </CardHeader>

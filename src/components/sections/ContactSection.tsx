@@ -14,7 +14,7 @@ export default function ContactSection() {
       </div>
       <div className="grid md:grid-cols-2 gap-12">
         <div className="space-y-6">
-          <Card className="bg-background">
+          <Card className="shadow-md">
             <CardHeader>
                 <CardTitle className="font-headline flex items-center gap-2">
                     <MapPin className="h-6 w-6 text-secondary" />
@@ -34,7 +34,7 @@ export default function ContactSection() {
         </div>
 
         <div className="space-y-6">
-            <Card className="bg-background">
+            <Card className="shadow-md">
                 <CardHeader>
                     <CardTitle className="font-headline flex items-center gap-2">
                         <Phone className="h-6 w-6 text-secondary" />
@@ -54,7 +54,7 @@ export default function ContactSection() {
                 </CardContent>
             </Card>
 
-            <Card className="bg-background">
+            <Card className="shadow-md">
                  <CardHeader>
                     <CardTitle className="font-headline flex items-center gap-2">
                         <Mail className="h-6 w-6 text-secondary" />

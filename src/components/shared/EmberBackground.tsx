@@ -10,10 +10,11 @@ interface EmberBackgroundProps {
 // --- Configuration ---
 // You can tweak these values to change the animation's look and feel.
 const PARTICLE_COUNT = 50; // Total number of particles
-const PARTICLE_COLORS = [ // Colors for the embers
-  'rgba(255, 148, 94,', // Soft Orange
-  'rgba(239, 102, 72,', // Deeper Orange-Red
-  'rgba(255, 210, 120,', // Pale Gold
+const PARTICLE_COLORS = [ // Colors for the embers - matching NeoBlaze '26 brand
+  'rgba(255, 107, 53,', // Vibrant Orange (#FF6B35)
+  'rgba(255, 186, 77,', // Gold accent (#FFBA4D)
+  'rgba(255, 210, 120,', // Pale Gold (#FFD278)
+  'rgba(255, 140, 80,', // Warm Orange
 ];
 // --------------------
 
