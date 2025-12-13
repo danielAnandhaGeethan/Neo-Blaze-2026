@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex items-center gap-3">
           <Image 
             src="/image.png" 
-            alt="Neo Blaze Logo" 
+            alt="NeoBlaze Logo" 
             width={49} 
             height={49}
             className="object-contain"

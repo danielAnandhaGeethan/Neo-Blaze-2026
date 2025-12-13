@@ -18,7 +18,7 @@ export default function Header() {
           <Link href="#home" className="mr-6 flex items-center space-x-3">
             <Image 
               src="/image.png" 
-              alt="Neo Blaze Logo" 
+              alt="NeoBlaze Logo" 
               width={63} 
               height={63}
               className="object-contain"

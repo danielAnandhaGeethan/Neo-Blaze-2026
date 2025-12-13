@@ -42,7 +42,8 @@ export const aboutContent = {
 };
 
 export const themeContent = {
-  title: "Theme 2026 - Teshuvah",
+  title: "Teshuvah",
+  translation: "תשובה",
   subtitle: "Return before He returns",
   explanation: "Teshuvah is a call for today\'s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
   connection: "The Second Coming is near, and Teshuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",

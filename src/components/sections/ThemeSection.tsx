@@ -11,6 +11,7 @@ export default function ThemeSection() {
         <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary relative">
           {themeContent.title}
         </h2>
+        <p className="mt-2 text-lg text-foreground/70 font-semibold">{themeContent.translation}</p>
         <p className="mt-2 text-lg text-foreground/70 font-semibold">{themeContent.subtitle}</p>
 
         <p className="mt-6 text-foreground/80 leading-relaxed">
