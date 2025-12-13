@@ -24,7 +24,7 @@ export default function Header() {
               className="object-contain"
             />
             <span className="font-bold font-display text-lg tracking-wide text-primary sm:inline-block">
-              NEO BLAZE
+              NEOBLAZE
             </span>
           </Link>
         </div>
@@ -55,12 +55,12 @@ export default function Header() {
                   <Link href="#home" onClick={() => setIsSheetOpen(false)} className="flex items-center space-x-2">
                     <Image 
                       src="/image.png" 
-                      alt="Neo Blaze Logo" 
+                      alt="NeoBlaze Logo" 
                       width={49} 
                       height={49}
                       className="object-contain"
                     />
-                    <span className="font-bold font-display tracking-wide text-primary">NEO BLAZE</span>
+                    <span className="font-bold font-display tracking-wide text-primary">NEOBLAZE</span>
                   </Link>
                   <SheetTrigger asChild>
                     <Button variant="ghost" size="icon">

@@ -13,7 +13,7 @@ export default function Footer() {
             height={49}
             className="object-contain"
           />
-          <p className="font-display font-semibold tracking-wide text-primary">NEO BLAZE 2026</p>
+          <p className="font-display font-semibold tracking-wide text-primary">NEOBLAZE 2026</p>
         </div>
         <div className="flex flex-col md:items-end gap-2">
           <p className="text-sm text-muted-foreground">{footerContent.hostedBy}</p>

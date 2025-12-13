@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Neo Blaze 2026',
+  title: 'NeoBlaze 2026',
   description: 'Inter Church Youth Festival hosted by CJC Youth Fellowship',
 };
 
