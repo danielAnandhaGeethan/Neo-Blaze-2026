@@ -7,12 +7,13 @@ import { MapPin, Mail, Phone } from 'lucide-react';
 export default function ContactSection() {
   return (
     <Section id="contact" className="bg-muted/50">
+      <div className="flex flex-col items-center text-center mb-10">
+        <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary">
+            Venue & Contact
+        </h2>
+      </div>
       <div className="grid md:grid-cols-2 gap-12">
         <div className="space-y-6">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary">
-            Venue & Contact
-          </h2>
-          
           <Card className="bg-background">
             <CardHeader>
                 <CardTitle className="font-headline flex items-center gap-2">

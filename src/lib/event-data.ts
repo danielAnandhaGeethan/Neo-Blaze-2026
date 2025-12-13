@@ -29,7 +29,7 @@ export const heroContent = {
 export const aboutContent = {
   title: "About NeoBlaze",
   paragraphs: [
-    "NeoBlaze is the premier inter-church youth event hosted by the CJC Youth Fellowship, igniting hearts for Christ! We're gathering youth from 15 to 20 churches for a day packed with high-energy competition and powerful fellowship.",
+    "NeoBlaze is the premier inter-church youth event hosted by the CJC Youth Fellowship, igniting hearts for Christ! We gather youth from 15 to 20 churches for a day packed with high-energy competition and powerful fellowship.",
     "This isn't just about winning prizes. It's about discovering God-given talents, building lasting friendships across different congregations, and uniting under one banner of faith. Get ready for a day of fun, challenge, and spiritual growth.",
   ],
   expectations: [
@@ -44,7 +44,7 @@ export const aboutContent = {
 export const themeContent = {
   title: "Theme 2026 - Teshuvah",
   subtitle: "Return before He returns",
-  explanation: "Teshuvah is a call for today’s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
+  explanation: "Teshuvah is a call for today\'s youth to return to God before the return of Christ. Though we may serve and pray, our hearts often wander. God is calling us to true repentance and renewed commitment, not outward devotion.",
   connection: "The Second Coming is near, and Teshuvah reminds us that now is the time to realign our lives with Him. Before the King returns for His people, His people must return to Him.",
   verse: {
     text: "“Return to Me, and I will return to you“, says the LORD of hosts.\nBut you say,How shall we return? …\nFor behold, the day is coming, burning like an oven,\nwhen all the arrogant and all evildoers will be stubble.",
@@ -113,10 +113,10 @@ export const eventRules = [
   {
     id: "singing",
     title: "Singing",
-    description: "Unleash your vocal and musical talents with an original composition. Let's create an atmosphere of worship and praise together.",
+    description: "Return to Him in praise, Let your song speak your heart!",
     meta: "Participants: Minimum 5 singers per church (not counting instrumentalists) | Time limit: 7 minutes (including instruments setup)",
     rules: [
-      "Songs must be original, with self-written lyrics and composition based on the theme verses Malachi 3:7, 4:1",
+      "Songs must be own composition with own lyrics based on the theme verses Malachi 3:7, 4:1",
       "Each team must include at least one creative vocal element, such as a clap pattern, hum, chant, scripture whisper, vocal slide, unison shout, etc.",
       "Teams must provide three copies of the lyrics sheet to the judges without mentioning the church name.",
       "All lyrics and on-stage presentation must be Christ-honoring and family-friendly.",
@@ -145,7 +145,7 @@ export const eventRules = [
       "Clay will be provided at the venue. You cannot use any external materials.",
       "Participants must bring their own moulding tools; none will be provided.",
       "Your final model should be an original creation and respectful of the event's spiritual tone.",
-      "Be prepared for small twists or constraints from the organizers – it’s part of the fun!",
+      "Be prepared for small twists or constraints from the organizers - it\'s part of the fun!",
     ],
   },
   {
@@ -154,7 +154,7 @@ export const eventRules = [
     description: "Dive deep into the scriptures in this fast-paced and exciting quiz. How well do you know the Word?",
     meta: "Participants: 3 per church",
     rules: [
-      "Bible versions allowed: Tamil (Old Translation), English (ESV).",
+      "Bible versions allowed: Tamil (பழைய மொழிபெயர்ப்பு), English (ESV).",
       "Syllabus for Prelims: The Book of Malachi and Revelation.",
       "For all subsequent rounds: The entire Bible.",
       "No phones, gadgets, or any form of notes are allowed during the quiz.",
@@ -189,8 +189,7 @@ export const eventRules = [
     meta: "Participants: 3 per church (1 team per church)",
     rules: [
       "All event details will be revealed only on the day of the event.",
-      "Any special materials required for the event will be provided by the organizers.",
-      "Judges will be looking for teamwork, creativity, problem-solving skills, and a positive attitude.",
+      "Any special materials required for the event will be provided by the organizers."
     ],
   },
   {
@@ -214,7 +213,7 @@ export const eventRules = [
     rules: [
       "Photos must be freshly clicked for this event. No old photos, AI-generated images, or stock photos.",
       "Submissions must be in JPG or PNG format.",
-      "Basic editing (brightness, contrast, color correction) is allowed. Heavy manipulation (adding/removing objects, composite images) is not.",
+      "Basic editing (brightness, contrast, color correction) is allowed. Heavy manipulation (adding/removing objects, composite images) is not allowed.",
       "Submit one photo per participant by uploading to Google Drive and emailing the link to csichurchofjesuschrist@gmail.com.",
       "Prioritize your safety above all else while taking your photos.",
     ],

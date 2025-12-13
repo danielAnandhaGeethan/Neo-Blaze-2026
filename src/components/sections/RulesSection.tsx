@@ -55,7 +55,7 @@ export default function RulesSection() {
                         </div>
                     </div>
                 ))}
-                 <p className="text-sm text-center text-muted-foreground pt-4">{generalRules.finalNote}</p>
+                 <p className="text-sm text-center text-muted-foreground pt-4 font-semibold italic">{generalRules.finalNote}</p>
             </CardContent>
         </Card>
       </div>
