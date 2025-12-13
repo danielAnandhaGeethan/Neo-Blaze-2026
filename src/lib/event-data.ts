@@ -275,9 +275,7 @@ export const contactInfo = {
             { name: "Charles", phone: "9710629387" },
             { name: "Presley", phone: "9003126573" },
             { name: "Prathip", phone: "9791441154" },
-            { name: "Alan", phone: "9940150411" },
-            { name: "Edwin Swanith", phone: "Don't call me Please!" },
-            { name: "Dany", phone: "Please call me!" },
+            { name: "Alan", phone: "9940150411" }
         ],
         email: "csichurchofjesuschrist@gmail.com"
     }
