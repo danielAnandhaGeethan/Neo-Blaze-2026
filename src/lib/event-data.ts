@@ -13,7 +13,7 @@ export const heroContent = {
   title: "NeoBlaze'26",
   subtitle: "Inter Church Youth Festival",
   tagline: "A one day youth festival with treasure hunts, music, reels, and more.",
-  date: "26 January 2026",
+  date: "14 February 2026",
   venue: "CSI Church of Jesus Christ, Palavakkam, ECR",
   ctaPrimary: {
     text: "View Events and Rules",
@@ -23,7 +23,7 @@ export const heroContent = {
     text: "Download Rulebook",
     href: "#", // Placeholder link
   },
-  eventDate: "2026-01-26T09:30:00",
+  eventDate: "2026-02-14T09:30:00",
 };
 
 export const aboutContent = {
