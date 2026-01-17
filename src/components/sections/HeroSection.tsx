@@ -47,7 +47,7 @@ export default function HeroSection() {
                 </div>
                 
                 {/* Church Image */}
-                <div className="hidden md:flex justify-center items-center relative">
+                <div className="flex flex-col md:flex-row justify-center items-center relative">
                     {/* Ambient glow layers */}
                     <div className="absolute inset-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] animate-pulse m-auto"></div>
                     <div className="absolute inset-0 w-64 h-64 bg-secondary/15 rounded-full blur-[80px] m-auto"></div>

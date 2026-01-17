@@ -197,7 +197,7 @@ export const eventRules = [
     id: "online-reels",
     title: "Reels (Online)",
     description: "Create a stunning video reel based on the theme 'Teshuvah' and share it with the world. Your chance to make an impact online.",
-    meta: "Submission Deadline: 15 January 2026",
+    meta: "Submission Deadline: 11 February 2026",
     rules: [
       "Create a video in reel format (e.g., for Instagram/Facebook) based on the event theme.",
       "The maximum duration is 1 minute.",
@@ -210,7 +210,7 @@ export const eventRules = [
     id: "online-photography",
     title: "Photography (Online)",
     description: "Explore the creative use of light in photography. Submit a single, powerful image that captures the essence of the given theme.",
-    meta: "Submission Deadline: 15 January 2026",
+    meta: "Submission Deadline: 11 February 2026",
     rules: [
       "Photos must be freshly clicked for this event. No old photos, AI-generated images, or stock photos.",
       "Submissions must be in JPG or PNG format.",
