@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-muted/50 border-t border-border/50">
       <div className="container py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center">
           <Image 
             src="/image.png" 
             alt="NeoBlaze Logo" 
