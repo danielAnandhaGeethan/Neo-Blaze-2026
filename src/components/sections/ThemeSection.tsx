@@ -8,11 +8,11 @@ export default function ThemeSection() {
     <Section id="theme" className="bg-muted/50">
       <div className="text-center max-w-3xl mx-auto relative">
         <Flame className="absolute -top-4 left-1/2 -translate-x-1/2 h-24 w-24 text-primary/10" />
-        <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary relative">
-          {themeContent.title}
-        </h2>
+          <h2 className="text-3xl md:text-4xl font-headline font-bold text-primary relative">
+            {themeContent.title}
+          </h2>
         <p className="mt-2 text-lg text-foreground/70 font-semibold">{themeContent.translation}</p>
-        <p className="mt-2 text-lg text-foreground/70 font-semibold">{themeContent.subtitle}</p>
+        <p className="mt-2 text-lg text-foreground/70 italic">{themeContent.subtitle}</p>
 
         <p className="mt-6 text-foreground/80 leading-relaxed">
           {themeContent.explanation}
